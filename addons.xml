@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.sratim-il-repo" name="sratim-il Repo" version="1.0.0" provider-name="REPO">
+    <extension point="xbnc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/Vacuolate/sratim-il-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Vacuolate/sratim-il-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Vacuolate/sratim-il-repo/master/</datadir>
+    </extension>
+    <extension point="xbnc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
